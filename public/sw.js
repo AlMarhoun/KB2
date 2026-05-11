@@ -1,5 +1,5 @@
 const CACHE_NAME = 'kuwait-bourse-calculator-mobile-pwa-v1';
-const APP_SHELL = ['/', '/manifest.json', '/icons/icon-192.png', '/icons/icon-512.png'];
+const APP_SHELL = ['/KB2/', '/KB2/manifest.json', '/KB2/icons/icon-192.png', '/KB2/icons/icon-512.png'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
@@ -35,7 +35,7 @@ self.addEventListener('fetch', (event) => {
           }
           return response;
         })
-        .catch(() => cached || caches.match('/'));
+        .catch(() => cached || caches.match('/KB2/'));
 
       return cached || network;
     }),
