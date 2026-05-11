@@ -2,8 +2,8 @@
   "name": "حاسبة بورصة الكويت — Kuwait Bourse Calculator",
   "short_name": "حاسبة البورصة",
   "description": "أدوات ذكية لحسابات سوق الكويت: التفسيخ، التوزيعات، ومتوسّط التكلفة.",
-  "start_url": "/KB2/",
-  "scope": "/KB2/",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#050510",
   "theme_color": "#050510",
@@ -13,19 +13,19 @@
   "categories": ["finance", "business", "productivity"],
   "icons": [
     {
-      "src": "/KB2/icons/icon-192.png",
+      "src": "/icons/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/KB2/icons/icon-512.png",
+      "src": "/icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/KB2/icons/maskable-512.png",
+      "src": "/icons/maskable-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
